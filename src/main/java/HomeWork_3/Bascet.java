@@ -1,11 +1,9 @@
-package ru.alfabank;
+package HomeWork_3;
 
-import java.lang.reflect.Array;
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 
-public class Main {
+public class Bascet {
 
 
     public static void main(String[] args) {

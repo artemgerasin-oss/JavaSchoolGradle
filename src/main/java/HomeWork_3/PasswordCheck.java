@@ -1,8 +1,4 @@
-package ru.alfabank;
-
-import java.sql.PreparedStatement;
-import java.sql.SQLOutput;
-import java.util.Arrays;
+package HomeWork_3;
 
 
 public class PasswordCheck {
