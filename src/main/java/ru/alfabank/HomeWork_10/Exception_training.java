@@ -1,4 +1,4 @@
-package ru.alfabank.HomeWork_10_notWork;
+package ru.alfabank.HomeWork_10;
 
 import java.util.Scanner;
 
