@@ -1,4 +1,4 @@
-package ru.alfabank.Homework_12.Exception.Unchecked;
+package ru.alfabank.HomeWork_12.Exception.Unchecked;
 
 //имя пассажира null или пустое
 

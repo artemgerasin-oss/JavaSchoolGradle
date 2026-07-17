@@ -1,4 +1,4 @@
-package ru.alfabank.Homework_12.Exception.Errors;
+package ru.alfabank.HomeWork_12.Exception.Errors;
 
 //Унаследуй его от Error
 //Это не обычная ошибка бизнес-логики, а критическая ситуация, блокирующая работу пункта приема багажа.

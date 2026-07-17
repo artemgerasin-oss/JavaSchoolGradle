@@ -1,4 +1,4 @@
-package ru.alfabank.Homework_12;
+package ru.alfabank.HomeWork_12;
 
 public class BaggageTicket {
 

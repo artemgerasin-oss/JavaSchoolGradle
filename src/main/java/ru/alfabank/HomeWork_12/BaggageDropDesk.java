@@ -1,20 +1,23 @@
-package ru.alfabank.Homework_12;
+package ru.alfabank.HomeWork_12;
 
-import ru.alfabank.Homework_12.Exception.Checked.BaggageTagPrintException;
-import ru.alfabank.Homework_12.Exception.Checked.FlightNotFoundException;
-import ru.alfabank.Homework_12.Exception.Checked.OverweightBaggageException;
-import ru.alfabank.Homework_12.Exception.Unchecked.InvalidBaggageWeightException;
-import ru.alfabank.Homework_12.Exception.Unchecked.InvalidPassengerNameException;
+import ru.alfabank.HomeWork_12.Exception.Checked.BaggageTagPrintException;
+import ru.alfabank.HomeWork_12.Exception.Checked.FlightNotFoundException;
+import ru.alfabank.HomeWork_12.Exception.Checked.OverweightBaggageException;
+import ru.alfabank.HomeWork_12.Exception.Unchecked.InvalidBaggageWeightException;
+import ru.alfabank.HomeWork_12.Exception.Unchecked.InvalidPassengerNameException;
 
 import java.util.ArrayList;
 
 public class BaggageDropDesk {
 
-        private final String[] flights;
 
-            public BaggageDropDesk(String[] flights) {
-                this.flights = flights;
-            }
+        //Объявляем массив доступных рейсов
+        private ArrayList<String> flights;
+
+        //Добавляем конструктор, инициализирующий массив доступных рейсов
+        public BaggageDropDesk(ArrayList flights) {
+            this.flights = flights;
+        }
 
 
     public BaggageTicket dropBaggage(String passengerName, String flightName, int baggageWeight) throws FlightNotFoundException, OverweightBaggageException, BaggageTagPrintException{

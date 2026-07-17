@@ -1,4 +1,4 @@
-package ru.alfabank.Homework_12.Exception.Checked;
+package ru.alfabank.HomeWork_12.Exception.Checked;
 
 //багаж слишком тяжелый
 
