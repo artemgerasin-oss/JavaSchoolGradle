@@ -1,6 +1,6 @@
 package ru.alfabank.HomeWork_11;
 
-import net.datafaker.providers.food.Coffee;
+//import net.datafaker.providers.food.Coffee;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
